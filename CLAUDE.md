@@ -47,3 +47,6 @@ About 10,000 rub./month for tools and APIs, excluding the Claude subscription. S
 - Each department finishes its work with a result file in the project folder and a short summary: what was done, what is needed from the owner.
 - Texts for the client and interfaces are in Russian.
 - Save tokens (`docs/token-economy.md`): the report upward is no longer than 15 lines, write details to a file and give a link, do not retell file contents. Do not read large files whole: first search by word, then the needed piece. Do not re-read what has already been read.
+
+## Third-party services
+Context7 (library docs MCP) is installed. Only generic library names and generic technical questions may be sent to it; never client data, project content, code, keys or tokens. No API keys are configured and none may be created or entered by agents.
