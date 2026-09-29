@@ -26,6 +26,9 @@
 - Общая память (CRM без сервисов): `leads/`, `clients/`, `projects/`, `templates/`, `brandbooks/`. Содержимое `leads/ clients/ projects/ brandbooks/` не коммитится (персональные данные).
 - Проект клиента: `projects/<slug>/` с файлами `01-brief.md`, `02-tz.md`, `03-design/`, `04-build/`, `05-qa.md`, `deadlines.md`, `outbox/`.
 
+## Python
+На этом компьютере команда `python3` не работает (заглушка Windows). Запускай Python как `py -3`.
+
 ## Бюджет
 Около 10 000 руб./мес. на инструменты и API, кроме подписки Claude. Платные сервисы и API-ключи предлагай, но не подключай без согласия владельца.
 
