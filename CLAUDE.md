@@ -50,3 +50,6 @@ About 10,000 rub./month for tools and APIs, excluding the Claude subscription. S
 
 ## Third-party services
 Context7 (library docs MCP) is installed. Only generic library names and generic technical questions may be sent to it; never client data, project content, code, keys or tokens. No API keys are configured and none may be created or entered by agents.
+
+## Security review cost control
+Plugin security-guidance is enabled for this project. Cheap regex warnings run on every edit. The per-turn LLM diff review is turned off (`ENABLE_STOP_REVIEW=0` in `.claude/settings.json`). The expensive reviewer runs on `git commit`, so developers commit once per finished block (a full spec stage, or the whole project for size S), never per file or per fix. Hand the reviewer a big block, not a line.

@@ -1,3 +1,10 @@
 {
+  "enabledPlugins": {
+    "security-guidance@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true
+  },
+  "env": {
+    "ENABLE_STOP_REVIEW": "0"
+  },
   "agent": "agency-lead"
 }
