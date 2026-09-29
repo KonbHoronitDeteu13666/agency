@@ -10,11 +10,11 @@
 | refactoring-ui | правила иерархии, отступов, контраста | `ui-designer` | ничего |
 | brand, color-expert | голос бренда, цвета | `brand-designer` | ничего |
 | ux-audit | эвристический аудит по скриншотам | кандидат для `qa-design` | подключить, если нужен глубокий аудит |
-| design-system, create-design-system, uiux-design | дизайн-системы, токены, логотипы | по запросу | для проектов на 1–3 дня избыточны |
+| design-system, create-design-system, uiux-design | дизайн-системы, токены, логотипы | по запросу | для массовых проектов избыточны, можно подключить для крупных |
 | slides, render-brand-pdf, banner-design | презентации, PDF, баннеры | marketing, КП | подключить к `copywriter` при необходимости |
 | ai-multimodal | работа с картинками, видео, аудио через Gemini | по запросу | нужен ключ Gemini, платный |
 | extract-site | сбор сырья с сайта-референса | `ui-designer` по запросу | ничего |
-| idea-clarifier, project-architect, prototype-designer, spec-writer, coder | цепочка «идея → код» | правила перенесены в облегчённых агентов | цепочка тяжёлая для 1–3 дней |
+| idea-clarifier, project-architect, prototype-designer, spec-writer, coder | цепочка «идея → код» | правила перенесены в облегчённых агентов | для массовых проектов тяжела; её правила использует облегчённая схема, для M и L шаги схемы и ТЗ по этапам заложены в `tz-writer` |
 | deep-research | исследование с несколькими источниками | leadgen, анализ рынка | ничего |
 | docx, pdf, pptx, xlsx, google-workspace | документы, таблицы | КП, сметы, таблица лидов | ничего |
 | built-in-browser, chrome-browser, computer-use | управление браузером и компьютером | leadgen | лиды: только открытые страницы, без входа в аккаунты |
