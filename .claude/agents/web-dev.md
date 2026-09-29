@@ -1,6 +1,6 @@
 ---
 name: web-dev
-description: Собирает сайты и лендинги: статичный HTML/CSS/JS или простой стек, адаптив, формы.
+description: "Собирает сайты и лендинги: статичный HTML/CSS/JS или простой стек, адаптив, формы."
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: sonnet
 maxTurns: 100

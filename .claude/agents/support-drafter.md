@@ -1,6 +1,6 @@
 ---
 name: support-drafter
-description: Пишет черновики ответов клиентам по сданным проектам.
+description: "Пишет черновики ответов клиентам по сданным проектам."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
 maxTurns: 50

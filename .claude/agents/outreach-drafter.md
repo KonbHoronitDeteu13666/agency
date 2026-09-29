@@ -1,6 +1,6 @@
 ---
 name: outreach-drafter
-description: Пишет черновики первых сообщений лидам и заготовки ответов на возражения.
+description: "Пишет черновики первых сообщений лидам и заготовки ответов на возражения."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
 maxTurns: 50

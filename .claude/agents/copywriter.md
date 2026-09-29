@@ -1,6 +1,6 @@
 ---
 name: copywriter
-description: Пишет русские тексты: посты, кейсы, описания услуг, тексты сайтов клиентов.
+description: "Пишет русские тексты: посты, кейсы, описания услуг, тексты сайтов клиентов."
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: sonnet
 maxTurns: 50

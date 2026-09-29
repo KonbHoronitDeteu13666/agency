@@ -1,6 +1,6 @@
 ---
 name: qa-lead
-description: Оркестратор тестирования. Проверяет код, дизайн, тексты и соответствие ТЗ. Вызывать после разработки.
+description: "Оркестратор тестирования. Проверяет код, дизайн, тексты и соответствие ТЗ. Вызывать после разработки."
 tools: Agent(qa-code, qa-design, qa-copy, qa-spec), Read, Write, Edit, Glob, Grep
 model: sonnet
 maxTurns: 30

@@ -1,6 +1,6 @@
 ---
 name: brand-designer
-description: Делает краткий брендбук для малого бизнеса: палитра, шрифты, тон текстов, логика логотипа.
+description: "Делает краткий брендбук для малого бизнеса: палитра, шрифты, тон текстов, логика логотипа."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
 maxTurns: 50

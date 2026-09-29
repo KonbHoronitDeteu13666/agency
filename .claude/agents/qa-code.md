@@ -1,6 +1,6 @@
 ---
 name: qa-code
-description: Проверяет код: запускается ли, ошибки, безопасность, секреты в коде, мусор.
+description: "Проверяет код: запускается ли, ошибки, безопасность, секреты в коде, мусор."
 tools: Read, Glob, Grep, Bash
 model: sonnet
 maxTurns: 50

@@ -1,6 +1,6 @@
 ---
 name: reference-scout
-description: Даёт дизайнерам насмотренность: наполняет и обновляет `design-library/`, собирает референсы под проект из галерей, подборки сайтов и ниши клиента, отдаёт наглядный references.html.
+description: "Даёт дизайнерам насмотренность, наполняет и обновляет библиотеку референсов design-library, собирает референсы под проект из галерей, подборки сайтов и ниши клиента, отдаёт наглядный файл references.html."
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, mcp__Claude_Browser__navigate, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__read_page, mcp__Claude_Browser__computer, mcp__Claude_Browser__javascript_tool
 model: sonnet
 maxTurns: 50

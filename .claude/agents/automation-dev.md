@@ -1,6 +1,6 @@
 ---
 name: automation-dev
-description: Делает автоматизации и простых ИИ-агентов: скрипты, интеграции, расписания.
+description: "Делает автоматизации и простых ИИ-агентов: скрипты, интеграции, расписания."
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: sonnet
 maxTurns: 100

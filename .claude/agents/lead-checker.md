@@ -1,6 +1,6 @@
 ---
 name: lead-checker
-description: Проверяет кандидатов (активен ли, правда ли нет сайта), пишет карточку лида с гипотезой оффера.
+description: "Проверяет кандидатов (активен ли, правда ли нет сайта), пишет карточку лида с гипотезой оффера."
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 model: sonnet
 maxTurns: 50

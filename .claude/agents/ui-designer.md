@@ -1,6 +1,6 @@
 ---
 name: ui-designer
-description: Делает HTML-макеты страниц и интерфейсов по ТЗ и брендбуку.
+description: "Делает HTML-макеты страниц и интерфейсов по ТЗ и брендбуку."
 tools: Read, Write, Edit, Glob, Grep, Bash, mcp__Claude_Browser__navigate, mcp__Claude_Browser__computer, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__resize_window
 model: sonnet
 maxTurns: 100

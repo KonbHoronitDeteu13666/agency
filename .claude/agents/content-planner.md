@@ -1,6 +1,6 @@
 ---
 name: content-planner
-description: Составляет контент-план агентства для соцсетей: темы, форматы, сроки.
+description: "Составляет контент-план агентства для соцсетей: темы, форматы, сроки."
 tools: Read, Write, Edit, Glob, Grep, WebSearch
 model: sonnet
 maxTurns: 50

@@ -1,6 +1,6 @@
 ---
 name: bot-dev
-description: Делает Telegram- и другие чат-боты по ТЗ.
+description: "Делает Telegram- и другие чат-боты по ТЗ."
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: sonnet
 maxTurns: 100

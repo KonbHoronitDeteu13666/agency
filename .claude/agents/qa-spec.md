@@ -1,6 +1,6 @@
 ---
 name: qa-spec
-description: Сверяет результат с критериями приёмки ТЗ клиента пункт за пунктом.
+description: "Сверяет результат с критериями приёмки ТЗ клиента пункт за пунктом."
 tools: Read, Glob, Grep, Bash
 model: sonnet
 maxTurns: 50
