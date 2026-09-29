@@ -3,7 +3,7 @@ name: qa-copy
 description: Проверяет тексты: орфография, пунктуация, тон, факты о клиенте, пустые заглушки.
 tools: Read, Glob, Grep, Bash
 model: sonnet
-maxTurns: 30
+maxTurns: 50
 skills:
   - sasha
 ---
