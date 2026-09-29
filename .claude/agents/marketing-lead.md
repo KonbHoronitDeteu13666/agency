@@ -2,7 +2,8 @@
 name: marketing-lead
 description: Оркестратор маркетинга и контента агентства: контент-план, посты, кейсы и портфолио. Вызывать для привлечения клиентов через контент.
 tools: Agent(content-planner, copywriter), Read, Write, Edit, Glob, Grep
-model: inherit
+model: sonnet
+maxTurns: 30
 ---
 
 Регламент: `departments/marketing.md`. Правила: `CLAUDE.md`.

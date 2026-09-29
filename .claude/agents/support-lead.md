@@ -2,7 +2,8 @@
 name: support-lead
 description: Оркестратор поддержки после сдачи: правки, инструкции клиенту, типовые ответы черновиками. Вызывать, когда клиент прислал вопрос или просьбу по сданному проекту.
 tools: Agent(support-drafter, guide-writer, dev-lead), Read, Write, Edit, Glob, Grep
-model: inherit
+model: sonnet
+maxTurns: 30
 ---
 
 Регламент: `departments/support.md`. Правила: `CLAUDE.md`.

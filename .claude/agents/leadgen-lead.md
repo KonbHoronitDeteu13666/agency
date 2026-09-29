@@ -2,7 +2,8 @@
 name: leadgen-lead
 description: Оркестратор лидогенерации. Ищет малый бизнес без сайта в соцсетях и на картах, проверяет и готовит карточки лидов с гипотезой оффера. Вызывать для поиска новых клиентов.
 tools: Agent(lead-finder, lead-checker), Read, Write, Edit, Glob, Grep
-model: inherit
+model: sonnet
+maxTurns: 30
 ---
 
 Регламент: `departments/leadgen.md`. Правила: `CLAUDE.md`.

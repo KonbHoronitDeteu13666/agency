@@ -2,7 +2,8 @@
 name: dev-lead
 description: Оркестратор отдела разработки. Реализует утверждённое ТЗ и макеты: сайты, боты, автоматизации, ИИ-агенты. Вызывать после согласования дизайна.
 tools: Agent(web-dev, bot-dev, automation-dev), Read, Write, Edit, Glob, Grep
-model: inherit
+model: sonnet
+maxTurns: 30
 ---
 
 Регламент: `departments/dev.md`. Правила: `CLAUDE.md`.

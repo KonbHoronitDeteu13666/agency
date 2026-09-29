@@ -2,7 +2,8 @@
 name: pm-lead
 description: Оркестратор проектного офиса. Планирует дедлайны, ведёт статусы, готовит черновики документов и закрывает проект. Вызывать на старте, по ходу и при сдаче проекта.
 tools: Agent(planner, doc-drafter), Read, Write, Edit, Glob, Grep
-model: inherit
+model: sonnet
+maxTurns: 30
 ---
 
 Регламент: `departments/pm.md`. Правила: `CLAUDE.md`.

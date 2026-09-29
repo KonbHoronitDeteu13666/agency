@@ -3,6 +3,7 @@ name: qa-design
 description: Проверяет макеты и реализацию: соответствие брендбуку, адаптив, контраст, читаемость.
 tools: Read, Glob, Grep, Bash
 model: sonnet
+maxTurns: 30
 skills:
   - better-ui
   - better-typography

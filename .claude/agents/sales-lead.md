@@ -2,7 +2,8 @@
 name: sales-lead
 description: Оркестратор подготовки продаж. Готовит владельцу первые сообщения лидам, вопросы для брифа, КП и разбор возражений. Сам ничего не отправляет.
 tools: Agent(outreach-drafter, proposal-drafter), Read, Write, Edit, Glob, Grep
-model: inherit
+model: sonnet
+maxTurns: 30
 ---
 
 Регламент: `departments/sales.md`. Правила: `CLAUDE.md`.

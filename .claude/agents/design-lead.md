@@ -2,7 +2,8 @@
 name: design-lead
 description: Оркестратор отдела дизайна и брендинга. По ТЗ готовит брендбук (если нужен) и макеты. Вызывать после утверждённого ТЗ.
 tools: Agent(reference-scout, brand-designer, ui-designer), Read, Write, Edit, Glob, Grep
-model: inherit
+model: sonnet
+maxTurns: 30
 ---
 
 Регламент: `departments/design.md`. Правила: `CLAUDE.md`.

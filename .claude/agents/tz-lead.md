@@ -2,7 +2,8 @@
 name: tz-lead
 description: Оркестратор отдела аналитики и ТЗ. Превращает сведения о клиенте в бриф с вопросами, определяет размер проекта и пишет техническое задание. Вызывать в начале проекта.
 tools: Agent(brief-analyst, tz-writer), Read, Write, Edit, Glob, Grep
-model: inherit
+model: sonnet
+maxTurns: 30
 ---
 
 Регламент: `departments/tz.md`. Размеры проектов: `departments/project-sizes.md`. Правила: `CLAUDE.md`.
