@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тестовая страница</title>
+<style>
+  body { margin: 0; padding: 24px; font-family: Arial, sans-serif; background: #ffffff; color: #111111; }
+  h1 { font-size: 32px; margin: 0 0 16px; }
+  .note { color: #bbbbbb; font-size: 11px; }
+  .wide { width: 520px; padding: 16px; background: #eef; border: 1px solid #99c; margin: 16px 0; }
+  .btn-bad { background: #2255cc; color: #fff; border: 0; padding: 12px 24px; font-size: 16px; border-radius: 6px; outline: none; cursor: pointer; }
+  .btn-good { background: #0a7a3c; color: #fff; border: 0; padding: 12px 24px; font-size: 16px; border-radius: 6px; cursor: pointer; }
+  .btn-good:hover { background: #075c2d; }
+  .btn-good:focus-visible { outline: 3px solid #111; outline-offset: 2px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111111; }
+  }
+</style>
+</head>
+<body>
+  <h1>Тестовая страница</h1>
+  <p class="note">Мелкий бледный текст-примечание про условия и сроки.</p>
+  <div class="wide">Широкий блок с фиксированной шириной.</div>
+  <p><button class="btn-bad" type="button">Первая кнопка</button></p>
+  <p><button class="btn-good" type="button">Вторая кнопка</button></p>
+  <script>
+    window.addEventListener('load', function () { initAnalytics(); });
+  </script>
+</body>
+</html>
