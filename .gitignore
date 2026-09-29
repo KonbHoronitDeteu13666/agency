@@ -1,0 +1,8 @@
+# Данные клиентов и лидов — персональные данные, в git не кладём (структура остаётся через .gitkeep)
+leads/*
+clients/*
+projects/*
+brandbooks/*
+!*/.gitkeep
+.claude/settings.local.json
+.env
