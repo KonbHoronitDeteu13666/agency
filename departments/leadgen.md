@@ -1,5 +1,5 @@
-# Отдел лидогенерации
+# Lead generation department
 
-Руководитель: `leadgen-lead`. Исполнители: `lead-finder`, `lead-checker`.
-Вход: ниша и город. Выход: `leads/<ниша>-<город>/` с карточками.
-Правила: только открытые источники, без входа в аккаунты и массового сбора, только публичные деловые контакты. Связь с лидами только через владельца.
+Lead: `leadgen-lead`. Executors: `lead-finder`, `lead-checker`.
+Input: niche and city. Output: `leads/<niche>-<city>/` with cards.
+Rules: open sources only, no logging into accounts and no mass scraping, only public business contacts. Contact with leads only through the owner.

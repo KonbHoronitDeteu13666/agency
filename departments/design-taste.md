@@ -1,47 +1,47 @@
-# Вкус и актуальность дизайна
+# Design taste and currency
 
-Цель: чтобы визуал не выглядел как типичная нейросетевая генерация, а был на уровне современных студийных сайтов. Обязательно для `brand-designer`, `ui-designer`, `reference-scout`.
+Goal: so the visuals do not look like typical AI generation but are at the level of modern studio sites. Mandatory for `brand-designer`, `ui-designer`, `reference-scout`.
 
-## 1. Как выглядит «нейронный» дизайн (запрещено по умолчанию)
-- Центрированный первый экран: крупный заголовок, подзаголовок, две кнопки, под ним три одинаковые карточки.
-- Фиолетово-синие градиенты, светящиеся пятна, «стеклянные» панели без причины.
-- Один и тот же шрифт без характера (Inter, Roboto, системный) во всех заголовках.
-- Все блоки одной ширины, одинаковые скругления, одинаковые отступы, никакого ритма и масштаба.
-- Иконки-эмодзи, стоковые формулировки («Инновационные решения для вашего бизнеса»).
-- Отсутствие сильной идеи: нельзя ответить одной фразой, что запоминается на этом сайте.
-Всё это допустимо только если так решил владелец.
+## 1. What "AI-generated" design looks like (forbidden by default)
+- Centered first screen: large heading, subheading, two buttons, under it three identical cards.
+- Purple-blue gradients, glowing blobs, "glass" panels for no reason.
+- The same characterless font (Inter, Roboto, system) in all headings.
+- All blocks of the same width, the same corner rounding, the same spacing, no rhythm and scale.
+- Emoji icons, stock phrasing ("Innovative solutions for your business").
+- No strong idea: you cannot answer in one phrase what is memorable about this site.
+All of this is acceptable only if the owner decided so.
 
-## 2. Как получаем насмотренность
-1. **Библиотека референсов** `design-library/`. Каждая запись: ссылка, дата, категория (ниша, приём, движение, 3D, шрифты), разбор по живой странице: реальные цвета, шрифты и размеры (из вычисленных стилей), какие библиотеки анимации и 3D подключены, что делает работу сильной (композиция, масштаб, ритм, контраст, движение). Индекс `design-library/index.md`.
-2. **Перед дизайном** агент читает библиотеку и открывает 3–5 живых референсов под нишу и настроение проекта. Из них выбирает 2–3 и пишет, что берёт из каждого (приём, не копию).
-3. **Идея в одной фразе.** Перед макетом агент формулирует главную идею сайта и то, чем он не похож на «нейронный» шаблон из раздела 1.
-4. **Самопроверка глазами.** После макета агент открывает результат в браузере (через локальный сервер: `py -3 -m http.server`), смотрит на телефонной и настольной ширине и сравнивает с референсами. Находит минимум три слабых места и правит. Только потом сдаёт.
-5. **Актуальность.** `reference-scout` обновляет библиотеку раз в месяц (задача по расписанию) и по запросу: смотрит свежие подборки и победителей галерей.
+## 2. How we build design experience
+1. **Reference library** `design-library/`. Each entry: link, date, category (niche, technique, motion, 3D, fonts), a breakdown from the live page: real colors, fonts and sizes (from computed styles), which animation and 3D libraries are connected, what makes the work strong (composition, scale, rhythm, contrast, motion). Index `design-library/index.md`.
+2. **Before designing** the agent reads the library and opens 3–5 live references for the project's niche and mood. From them it picks 2–3 and writes what it takes from each (a technique, not a copy).
+3. **Idea in one phrase.** Before the mockup the agent formulates the site's main idea and how it differs from the "AI-generated" template of section 1.
+4. **Self-check by eye.** After the mockup the agent opens the result in a browser (via a local server: `py -3 -m http.server`), looks at phone and desktop widths and compares with the references. Finds at least three weak spots and fixes them. Only then delivers.
+5. **Currency.** `reference-scout` updates the library once a month (scheduled task) and on request: looks at fresh selections and gallery winners.
 
-## 3. Где искать
-Проверено 29.09.2026 запросом с компьютера. Сайты, отвеченные кодами 403, 429 и 202, блокируют ботов: открывать только в браузере, а не читать как текст.
+## 3. Where to look
+Checked 29.09.2026 by a request from the computer. Sites that answered with codes 403, 429 and 202 block bots: open only in a browser, do not read as text.
 
-| Задача | Сайты |
+| Task | Sites |
 |---|---|
-| Лучшие сайты мира, современная подача | awwwards.com, godly.website, httpster.net, minimal.gallery, siteinspire.com (429), brutalistwebsites.com |
-| Шаблоны студий, смотреть вживую | framer.com/marketplace |
-| Идеи и визуальные подборки | savee.it, dribbble.com (202), behance.net (403) |
-| Лендинги для обычных ниш | onepagelove.com, landingfolio.com, hoverstates.com, land-book.com (403), lapa.ninja (403) |
-| Движение и 3D | codrops.com, gsap.com/showcase, unicorn.studio, spline.design |
-| Шрифты | fonts.google.com (кириллица, свободная лицензия), fontshare.com (часто без кириллицы), typewolf.com (какие пары шрифтов сейчас в ходу) |
-| Ниша клиента | сайты конкурентов клиента в его городе и в мире, находит поиском |
-| Подборка владельца | `docs/references.md` (эффекты, компоненты, шрифты) |
+| Best sites in the world, modern presentation | awwwards.com, godly.website, httpster.net, minimal.gallery, siteinspire.com (429), brutalistwebsites.com |
+| Studio templates, view live | framer.com/marketplace |
+| Ideas and visual selections | savee.it, dribbble.com (202), behance.net (403) |
+| Landing pages for ordinary niches | onepagelove.com, landingfolio.com, hoverstates.com, land-book.com (403), lapa.ninja (403) |
+| Motion and 3D | codrops.com, gsap.com/showcase, unicorn.studio, spline.design |
+| Fonts | fonts.google.com (Cyrillic, free license), fontshare.com (often without Cyrillic), typewolf.com (which font pairs are in use now) |
+| Client's niche | sites of the client's competitors in their city and worldwide, found by search |
+| Owner's selection | `docs/references.md` (effects, components, fonts) |
 
-Доступного API у этих сайтов нет, всё через браузер. Что на них лежит сейчас, при сборе смотрит `reference-scout`.
+These sites have no available API, everything goes through the browser. What is on them now is checked by `reference-scout` during collection.
 
-## 4. Режимы
-- **Вау** (по умолчанию для лендингов, визиток, сайтов, где визуал продаёт): сильная идея, характерные шрифты, необычная композиция, выразительное движение, при уместности 3D. Правила эффектов: `departments/wow-effects.md`.
-- **Стандарт** (боты, панели данных, кабинеты, утилитарные сайты, если владелец не просит иначе): чистый, читаемый, без демонстративных эффектов.
-Режим на проект назначает владелец. Если он не сказал, агент предлагает режим по типу проекта и показывает выбор наглядно.
+## 4. Modes
+- **«Вау»** (default for landing pages, business-card sites, sites where visuals sell): strong idea, characterful fonts, unusual composition, expressive motion, 3D where appropriate. Effect rules: `departments/wow-effects.md`.
+- **«Стандарт»** (bots, data panels, account areas, utilitarian sites, unless the owner asks otherwise): clean, readable, no showy effects.
+The mode per project is assigned by the owner. If they did not say, the agent proposes a mode by project type and shows the choice visually.
 
-## 5. Порядок затрат: сначала дёшево, дорого после выбора
-- **Варианты стиля (3 штуки)** делаются лёгкими: один файл `variants.html` с тремя превью первого экрана, палитрой с кодами, парой шрифтов и рядом кнопок. Без эффектов, без полных страниц, общий каркас на все три. Цель: чтобы владелец выбрал направление.
-- **Эффект первого экрана** (анимация, 3D, стикеры) строится один раз, уже для выбранного варианта.
-- **Полный макет** делается только после выбора и согласования брендбука.
-- Между этапами агент останавливается и показывает результат, а не переходит дальше сам, если владелец не разрешил вести проект до конца.
-Причина: три полноценные страницы с эффектами стоят втрое дороже одной, а выбрать по ним нужно только одну.
+## 5. Order of spending: cheap first, expensive after the choice
+- **Style variants (3 pieces)** are made light: one file `variants.html` with three first-screen previews, a palette with codes, a font pair and a row of buttons. No effects, no full pages, a shared skeleton for all three. Goal: for the owner to choose a direction.
+- **First-screen effect** (animation, 3D, stickers) is built once, already for the chosen variant.
+- **Full mockup** is made only after the choice and approval of the brandbook.
+- Between stages the agent stops and shows the result and does not move on by itself, unless the owner allowed running the project to the end.
+Reason: three full pages with effects cost three times one, and only one needs to be chosen from them.

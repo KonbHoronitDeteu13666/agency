@@ -1,5 +1,5 @@
-# Проектный офис
+# Project office
 
-Руководитель: `pm-lead`. Исполнители: `planner`, `doc-drafter`.
-Вход: ТЗ, статусы. Выход: `deadlines.md`, черновики документов, запись клиента в `clients/`.
-Правила: юридическую форму документов выбирает владелец, суммы и реквизиты пустые.
+Lead: `pm-lead`. Executors: `planner`, `doc-drafter`.
+Input: ТЗ, statuses. Output: `deadlines.md`, document drafts, a client record in `clients/`.
+Rules: the owner chooses the legal form of documents, amounts and bank details stay empty.

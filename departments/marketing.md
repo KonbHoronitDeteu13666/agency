@@ -1,5 +1,5 @@
-# Отдел маркетинга
+# Marketing department
 
-Руководитель: `marketing-lead`. Исполнители: `content-planner`, `copywriter`.
-Вход: цель и площадки от владельца, закрытые проекты. Выход: `marketing/`.
-Правила: без выдуманных кейсов и цифр, кейс только с разрешения клиента, публикует владелец.
+Lead: `marketing-lead`. Executors: `content-planner`, `copywriter`.
+Input: goal and platforms from the owner, closed projects. Output: `marketing/`.
+Rules: no invented cases or numbers, a case only with the client's permission, the owner publishes.

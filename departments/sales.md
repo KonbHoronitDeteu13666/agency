@@ -1,5 +1,5 @@
-# Подготовка продаж
+# Sales preparation
 
-Руководитель: `sales-lead`. Исполнители: `outreach-drafter`, `proposal-drafter`.
-Вход: карточка лида или бриф. Выход: черновики сообщений, вопросов для брифа, КП.
-Правила: цену называет владелец, отправляет владелец, всё в `outbox/` с пометкой ЧЕРНОВИК.
+Lead: `sales-lead`. Executors: `outreach-drafter`, `proposal-drafter`.
+Input: a lead card or brief. Output: drafts of messages, brief questions, commercial proposal (КП).
+Rules: the owner names the price, the owner sends, everything goes in `outbox/` marked ЧЕРНОВИК.

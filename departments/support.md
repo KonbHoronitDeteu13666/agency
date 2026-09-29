@@ -1,5 +1,5 @@
-# Поддержка после сдачи
+# Post-delivery support
 
-Руководитель: `support-lead`. Исполнители: `support-drafter`, `guide-writer`, при правках `dev-lead`.
-Вход: сообщение клиента от владельца. Выход: черновик ответа, инструкция или правка.
-Правила: входит ли правка в исходное ТЗ, решает владелец; ответ клиенту отправляет владелец.
+Lead: `support-lead`. Executors: `support-drafter`, `guide-writer`, `dev-lead` for fixes.
+Input: the client's message from the owner. Output: a draft reply, an instruction or a fix.
+Rules: whether a fix falls within the original ТЗ is decided by the owner; the reply to the client is sent by the owner.

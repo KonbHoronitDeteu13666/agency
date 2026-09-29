@@ -1,6 +1,6 @@
-# Отдел ТЗ
+# ТЗ department
 
-Руководитель: `tz-lead`. Исполнители: `brief-analyst`, `tz-writer`.
-Вход: всё, что владелец принёс о клиенте. Выход: `01-brief.md`, `02-tz.md`.
-Готово, когда: закрыты 5 обязательных пунктов брифа, размер проекта определён, ТЗ содержит проверяемые критерии приёмки и раздел «Безопасность». Для M и L есть `02-scheme.md`, ТЗ разбито на этапы, у каждого свои критерии.
-Стоп: открытые вопросы к клиенту, выбор стека с влиянием на цену, «да» владельца на ТЗ.
+Lead: `tz-lead`. Executors: `brief-analyst`, `tz-writer`.
+Input: everything the owner brought about the client. Output: `01-brief.md`, `02-tz.md`.
+Done when: the 5 mandatory brief points are closed, the project size is determined, the ТЗ contains verifiable acceptance criteria and a «Безопасность» section. For M and L there is `02-scheme.md`, the ТЗ is split into stages, each with its own criteria.
+Stop: open questions to the client, a stack choice that affects price, the owner's "yes" on the ТЗ.

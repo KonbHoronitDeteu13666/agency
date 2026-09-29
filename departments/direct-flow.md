@@ -1,20 +1,20 @@
-# Прямой вызов исполнителей (по умолчанию)
+# Direct calls to executors (default)
 
-Каждый вызов агента стоит около 7 тысяч токенов порога (замер 29.09.2026: пустой `qa-spec` = 6.9k, пустой `design-lead` = 12.3k, `ui-designer` с подключёнными скилами = 23k), ещё до работы. Слой руководителей добавляет свой порог на каждом этапе и в основном передаёт задачи. Поэтому главный агент вызывает исполнителей напрямую по этим цепочкам. Руководителей (`*-lead`) вызывают только для этапов M и L, где несколько исполнителей работают подряд и нужен координатор, и то по решению главного агента.
+Each agent call costs about 7 thousand tokens of baseline (measured 29.09.2026: an empty `qa-spec` = 6.9k, an empty `design-lead` = 12.3k, `ui-designer` with connected skills = 23k), before any work. The layer of leads adds its own baseline at each stage and mostly passes tasks along. So the main agent calls executors directly along these chains. Leads (`*-lead`) are called only for M and L stages where several executors work in sequence and a coordinator is needed, and even then at the main agent's decision.
 
-Исполнителю в промпте всегда указывай: слаг проекта, какие файлы читать, какой файл написать, что вернуть (до 15 строк).
+In the prompt to an executor always specify: project slug, which files to read, which file to write, what to return (up to 15 lines).
 
-| Отдел | Цепочка для проекта S | Что делает главный сам |
+| Department | Chain for an S project | What the main agent does itself |
 |---|---|---|
-| Бриф и ТЗ | `brief-analyst`, затем (после ответов клиента) `tz-writer` | определяет размер S/M/L по `project-sizes.md`, передаёт вопросы владельцу |
-| Дизайн | `reference-scout` (для визуальных проектов), `brand-designer` (лёгкие варианты, затем брендбук после выбора), `ui-designer` | показывает HTML владельцу, ведёт выбор |
-| Разработка | один из `web-dev`, `bot-dev`, `automation-dev` по типу проекта | |
-| Проверка | `qa-spec`, `qa-copy`, `qa-design` (если есть визуал), `qa-code` (если есть логика) | собирает замечания в `05-qa.md`, вердикт |
-| Планирование | без `planner`: `deadlines.md` пишет главный | |
-| Документы и закрытие | `doc-drafter` по необходимости | переносит клиента в `clients/` |
-| Лиды | `lead-finder`, затем `lead-checker` | |
-| Маркетинг | `content-planner`, `copywriter` | |
-| Продажи | `outreach-drafter`, `proposal-drafter` | |
-| Поддержка | `support-drafter`, `guide-writer`; правку по коду делает разработчик проекта | оценивает, входит ли правка в исходное ТЗ, решает владелец |
+| Brief and ТЗ | `brief-analyst`, then (after the client's answers) `tz-writer` | determines size S/M/L per `project-sizes.md`, passes questions to the owner |
+| Design | `reference-scout` (for visual projects), `brand-designer` (light variants, then the brandbook after the choice), `ui-designer` | shows HTML to the owner, runs the choice |
+| Development | one of `web-dev`, `bot-dev`, `automation-dev` by project type | |
+| Checking | `qa-spec`, `qa-copy`, `qa-design` (if there are visuals), `qa-code` (if there is logic) | collects findings into `05-qa.md`, verdict |
+| Planning | without `planner`: the main agent writes `deadlines.md` | |
+| Documents and closing | `doc-drafter` as needed | moves the client to `clients/` |
+| Leads | `lead-finder`, then `lead-checker` | |
+| Marketing | `content-planner`, `copywriter` | |
+| Sales | `outreach-drafter`, `proposal-drafter` | |
+| Support | `support-drafter`, `guide-writer`; a code fix is done by the project's developer | assesses whether the fix falls within the original ТЗ, the owner decides |
 
-Для M и L можно вызвать руководителя (`tz-lead`, `design-lead`, `dev-lead`, `qa-lead`), если этап большой; тогда действует его инструкция.
+For M and L you can call a lead (`tz-lead`, `design-lead`, `dev-lead`, `qa-lead`) if the stage is large; then its instructions apply.

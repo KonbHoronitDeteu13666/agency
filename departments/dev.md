@@ -1,7 +1,7 @@
-# Отдел разработки
+# Development department
 
-Руководитель: `dev-lead`. Исполнители: `web-dev`, `bot-dev`, `automation-dev`.
-Вход: `02-tz.md`, `03-design/`. Выход: `04-build/` с README и `.env.example`.
-Готово, когда: критерии приёмки ТЗ проверены самим разработчиком, секретов в коде нет, README понятен нетехническому человеку.
-Правила: строго по ТЗ, пробел в ТЗ возвращается вопросом, идеи в RECOMMENDATIONS.md.
-Стоп: доступы, ключи, деплой на боевой домен, платные сервисы.
+Lead: `dev-lead`. Executors: `web-dev`, `bot-dev`, `automation-dev`.
+Input: `02-tz.md`, `03-design/`. Output: `04-build/` with README and `.env.example`.
+Done when: the ТЗ acceptance criteria are checked by the developer, there are no secrets in the code, the README is understandable to a non-technical person.
+Rules: strictly per the ТЗ, a gap in the ТЗ is returned as a question, ideas go to RECOMMENDATIONS.md.
+Stop: access, keys, deploy to a live domain, paid services.

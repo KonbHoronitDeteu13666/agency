@@ -1,5 +1,5 @@
-# Отдел тестирования
+# Testing department
 
-Руководитель: `qa-lead`. Исполнители: `qa-code`, `qa-design`, `qa-copy`, `qa-spec`.
-Вход: весь проект. Выход: `05-qa.md`, замечания от самых серьёзных, вердикт.
-Правила: QA только проверяет. До двух кругов правок, потом решает владелец. Что проверить нечем, пишется прямо.
+Lead: `qa-lead`. Executors: `qa-code`, `qa-design`, `qa-copy`, `qa-spec`.
+Input: the whole project. Output: `05-qa.md`, findings from most serious to least, verdict.
+Rules: QA only checks. Up to two rounds of fixes, then the owner decides. If there is nothing to check something with, say so plainly.

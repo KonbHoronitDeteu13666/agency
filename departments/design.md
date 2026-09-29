@@ -1,7 +1,7 @@
-# Отдел дизайна
+# Design department
 
-Руководитель: `design-lead`. Исполнители: `brand-designer`, `ui-designer`.
-Вход: `02-tz.md`, референсы владельца. Выход: `brandbooks/<клиент>/` и `03-design/`.
-Готово, когда: стиль выбран владельцем из трёх вариантов, макеты покрывают все страницы ТЗ, адаптив под телефон, контраст проверен.
-Стоп: выбор варианта стиля, согласование макетов.
-Визуальные результаты (варианты стиля, брендбук, макеты) сдаются как HTML для показа владельцу, см. `CLAUDE.md`.
+Lead: `design-lead`. Executors: `brand-designer`, `ui-designer`.
+Input: `02-tz.md`, the owner's references. Output: `brandbooks/<client>/` and `03-design/`.
+Done when: the style is chosen by the owner from three variants, the mockups cover all ТЗ pages, mobile layout works, contrast is checked.
+Stop: choice of style variant, approval of mockups.
+Visual results (style variants, brandbook, mockups) are delivered as HTML for showing to the owner, see `CLAUDE.md`.
