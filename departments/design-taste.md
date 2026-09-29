@@ -23,7 +23,7 @@ Checked 29.09.2026 by a request from the computer. Sites that answered with code
 
 | Task | Sites |
 |---|---|
-| Best sites in the world, modern presentation | awwwards.com, godly.website, httpster.net, minimal.gallery, siteinspire.com (429), brutalistwebsites.com |
+| Best sites in the world, modern presentation | awwwards.com, recent.design (godly.website now redirects there), httpster.net, minimal.gallery, siteinspire.com (429), brutalistwebsites.com |
 | Studio templates, view live | framer.com/marketplace |
 | Ideas and visual selections | savee.it, dribbble.com (202), behance.net (403) |
 | Landing pages for ordinary niches | onepagelove.com, landingfolio.com, hoverstates.com, land-book.com (403), lapa.ninja (403) |
@@ -45,3 +45,8 @@ The mode per project is assigned by the owner. If they did not say, the agent pr
 - **Full mockup** is made only after the choice and approval of the brandbook.
 - Between stages the agent stops and shows the result and does not move on by itself, unless the owner allowed running the project to the end.
 Reason: three full pages with effects cost three times one, and only one needs to be chosen from them.
+
+## 6. Library entry format and verification
+Entry file `design-library/<category>/<name>.md`, in this order: link and analysis date; category; computed styles from the live page (background, text, heading colors, fonts with real sizes and weights); libraries found (GSAP, three.js, Lottie, Lenis, canvas count), marked "not found in code, per source" when only claimed elsewhere; layout and rhythm; "strong because" (composition, scale, rhythm, contrast, motion); take / do not take; "not verified" (licenses, things that could not be read, e.g. text drawn as images). Never state what was not seen on the page.
+
+Self-check on wide screens: a small screenshot is not enough. At every width (360 and 1280) also read real numbers with javascript_tool: font sizes and widths of headings and buttons (getComputedStyle, getBoundingClientRect) and check for horizontal overflow (`document.documentElement.scrollWidth > innerWidth`). Report numbers, not impressions.
