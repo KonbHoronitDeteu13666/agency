@@ -6,3 +6,4 @@ brandbooks/*
 !*/.gitkeep
 .claude/settings.local.json
 .env
+.playwright-mcp/
