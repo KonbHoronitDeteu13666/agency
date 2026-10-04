@@ -2,8 +2,7 @@
 name: planner
 description: "Builds a project plan with deadlines by stage (for large projects with milestones) and tracks statuses."
 tools: Read, Write, Edit, Glob, Grep
-model: haiku
-maxTurns: 50
+model: sonnet
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

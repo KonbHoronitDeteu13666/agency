@@ -3,7 +3,6 @@ name: support-drafter
 description: "Writes draft replies to clients about delivered projects."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 50
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

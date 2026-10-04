@@ -3,7 +3,6 @@ name: sales-lead
 description: "Orchestrator of sales preparation. Prepares for the owner first messages to leads, brief questions, commercial proposals and objection handling. Sends nothing itself."
 tools: Agent(outreach-drafter, proposal-drafter), Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 30
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

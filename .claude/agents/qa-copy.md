@@ -2,8 +2,7 @@
 name: qa-copy
 description: "Checks texts: spelling, punctuation, tone, facts about the client, empty placeholders."
 tools: Read, Glob, Grep, Bash
-model: sonnet
-maxTurns: 50
+model: claude-opus-5-5
 skills:
   - sasha
 ---

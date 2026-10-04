@@ -3,7 +3,6 @@ name: tz-lead
 description: "Orchestrator of the analytics and spec department. Turns client information into a brief with questions, determines the project size and writes the technical specification. Call at the start of a project."
 tools: Agent(brief-analyst, tz-writer), Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 30
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

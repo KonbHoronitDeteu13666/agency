@@ -3,7 +3,6 @@ name: copywriter
 description: "Writes Russian texts: posts, cases, service descriptions, texts for client websites."
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: sonnet
-maxTurns: 50
 skills:
   - sasha
 ---

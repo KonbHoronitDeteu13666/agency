@@ -3,7 +3,6 @@ name: marketing-lead
 description: "Orchestrator of the agency's marketing and content: content plan, posts, cases and portfolio. Call to attract clients through content."
 tools: Agent(content-planner, copywriter), Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 30
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

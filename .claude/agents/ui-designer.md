@@ -3,7 +3,6 @@ name: ui-designer
 description: "Makes HTML mockups of pages and interfaces from the spec and brandbook."
 tools: Read, Write, Edit, Glob, Grep, Bash, mcp__Claude_Browser__navigate, mcp__Claude_Browser__computer, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__resize_window, mcp__plugin_context7_context7__resolve-library-id, mcp__plugin_context7_context7__query-docs
 model: sonnet
-maxTurns: 100
 skills:
   - frontend-design
   - refactoring-ui

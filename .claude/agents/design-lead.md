@@ -3,7 +3,6 @@ name: design-lead
 description: "Orchestrator of the design and branding department. Prepares the brandbook (if needed) and mockups from the spec. Call after the spec is approved."
 tools: Agent(reference-scout, brand-designer, ui-designer), Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 30
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

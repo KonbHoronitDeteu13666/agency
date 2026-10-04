@@ -3,7 +3,6 @@ name: brand-designer
 description: "Makes a short brandbook for a small business: palette, fonts, text tone, logo logic."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 50
 skills:
   - brand
 ---

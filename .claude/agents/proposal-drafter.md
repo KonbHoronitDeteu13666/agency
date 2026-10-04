@@ -3,7 +3,6 @@ name: proposal-drafter
 description: "Prepares brief questions for the client and a draft commercial proposal with a stage-by-stage estimate without a price."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 50
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

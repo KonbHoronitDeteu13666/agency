@@ -2,8 +2,7 @@
 name: qa-design
 description: "Checks mockups and implementation: brandbook match, responsiveness, contrast, readability."
 tools: Read, Glob, Grep, Bash, mcp__plugin_playwright_playwright__browser_navigate, mcp__plugin_playwright_playwright__browser_resize, mcp__plugin_playwright_playwright__browser_take_screenshot, mcp__plugin_playwright_playwright__browser_evaluate, mcp__plugin_playwright_playwright__browser_snapshot, mcp__plugin_playwright_playwright__browser_console_messages, mcp__plugin_playwright_playwright__browser_hover, mcp__plugin_playwright_playwright__browser_emulate_media, mcp__plugin_playwright_playwright__browser_close
-model: sonnet
-maxTurns: 50
+model: claude-opus-5-5
 skills:
   - better-ui
   - better-typography

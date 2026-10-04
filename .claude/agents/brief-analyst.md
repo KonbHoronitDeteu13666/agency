@@ -3,7 +3,6 @@ name: brief-analyst
 description: "Analyzes client materials, identifies goals and gaps, formulates questions to the client for the owner."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 50
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

@@ -3,7 +3,6 @@ name: leadgen-lead
 description: "Orchestrator of lead generation. Searches for small businesses without a site in social networks and on maps, checks them and prepares lead cards with an offer hypothesis. Call to find new clients."
 tools: Agent(lead-finder, lead-checker), Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 30
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

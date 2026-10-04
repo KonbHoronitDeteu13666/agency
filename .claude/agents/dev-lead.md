@@ -3,7 +3,6 @@ name: dev-lead
 description: "Orchestrator of the development department. Implements the approved spec and mockups: sites, bots, automations, AI agents. Call after the design is agreed."
 tools: Agent(web-dev, bot-dev, automation-dev), Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 30
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

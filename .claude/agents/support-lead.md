@@ -3,7 +3,6 @@ name: support-lead
 description: "Orchestrator of post-delivery support: fixes, client instructions, standard replies as drafts. Call when a client sent a question or request about a delivered project."
 tools: Agent(support-drafter, guide-writer, dev-lead), Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 30
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

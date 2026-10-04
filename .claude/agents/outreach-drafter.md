@@ -3,7 +3,6 @@ name: outreach-drafter
 description: "Writes drafts of first messages to leads and prepared replies to objections."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 50
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

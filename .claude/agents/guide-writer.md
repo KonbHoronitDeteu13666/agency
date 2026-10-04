@@ -3,7 +3,6 @@ name: guide-writer
 description: "Writes step-by-step instructions for the client: how to use the site, bot or automation."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 50
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

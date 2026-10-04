@@ -3,7 +3,6 @@ name: tz-writer
 description: "Writes the spec (ТЗ) from a finished brief with client answers; for large projects first a scheme of sections and data, then the ТЗ by stages."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 50
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

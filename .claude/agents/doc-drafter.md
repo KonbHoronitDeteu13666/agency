@@ -3,7 +3,6 @@ name: doc-drafter
 description: "Prepares drafts of project documents: acceptance act, client memo, templates. The owner chooses the legal form."
 tools: Read, Write, Edit, Glob, Grep
 model: sonnet
-maxTurns: 50
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.

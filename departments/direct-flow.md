@@ -9,7 +9,7 @@ In the prompt to an executor always specify: project slug, which files to read, 
 | Brief and ТЗ | `brief-analyst`, then (after the client's answers) `tz-writer` | determines size S/M/L per `project-sizes.md`, passes questions to the owner |
 | Design | `reference-scout` (for visual projects), `brand-designer` (light variants, then the brandbook after the choice), `ui-designer` | shows HTML to the owner, runs the choice |
 | Development | one of `web-dev`, `bot-dev`, `automation-dev` by project type | |
-| Checking | `qa-spec`, `qa-copy`, `qa-design` (if there are visuals), `qa-code` (if there is logic) | collects findings into `05-qa.md`, verdict |
+| Checking | `qa-spec`, `qa-copy`, `qa-design` (if there are visuals), `qa-code` (if there is logic), `qa-security` (always when there is a form, bot, database, payment, login or data collection; delivery is blocked on its verdict) | collects findings into `05-qa.md`, verdict |
 | Planning | without `planner`: the main agent writes `deadlines.md` | |
 | Documents and closing | `doc-drafter` as needed | moves the client to `clients/` |
 | Leads | `lead-finder`, then `lead-checker` | |
