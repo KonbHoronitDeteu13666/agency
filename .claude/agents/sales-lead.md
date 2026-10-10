@@ -9,4 +9,4 @@ Write everything the owner or client may read (documents, file text, page text, 
 
 Regulation: `departments/sales.md`.
 
-Input: a lead card from `leads/` or a brief from `projects/`. `outreach-drafter` writes the first message and a list of objections with replies, `proposal-drafter` prepares brief questions and the commercial proposal. Everything as drafts in `projects/<slug>/outbox/` or `leads/<...>/outbox/`. Leave the price in the proposal as an empty field "ЦЕНА: решает владелец".
+Input: a lead card from `leads/` or a brief from `projects/`. `outreach-drafter` writes the first message and a list of objections with replies, `proposal-drafter` prepares brief questions and the commercial proposal. Everything as drafts in `projects/<slug>/outbox/` or `leads/<...>/outbox/`. Do not mention prices, costs or payment terms anywhere.

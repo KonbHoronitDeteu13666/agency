@@ -25,9 +25,12 @@ Checked 29.09.2026 by a request from the computer. Sites that answered with code
 |---|---|
 | Best sites in the world, modern presentation | awwwards.com, recent.design (godly.website now redirects there), httpster.net, minimal.gallery, siteinspire.com (429), brutalistwebsites.com |
 | Studio templates, view live | framer.com/marketplace |
-| Ideas and visual selections | savee.it, dribbble.com (202), behance.net (403) |
+| Ideas and visual selections | savee.it, dribbble.com (202), behance.net (403), pinterest.com (not yet checked): `reference-scout` opens dribbble, behance and pinterest in the owner's signed-in Chrome, read-only, no asking (see its file) |
 | Landing pages for ordinary niches | onepagelove.com, landingfolio.com, hoverstates.com, land-book.com (403), lapa.ninja (403) |
 | Motion and 3D | codrops.com, gsap.com/showcase, unicorn.studio, spline.design |
+| SaaS and app-style interfaces, UI screens and blocks (owner's list, not yet checked) | saaslandingpage.com, screenlane.com, collectui.com, ui-movement.com |
+| Effects, code snippets, interaction ideas (owner's list, not yet checked) | codepen.io (license varies per pen, check before using code), uiverse.io |
+| Component libraries with code (owner's list, not yet checked; free parts only, some components are paid) | ui.shadcn.com, daisyui.com, flowbite.com (free part), magicui.design, ui.aceternity.com (free part) |
 | Fonts | fonts.google.com (Cyrillic, free license), fontshare.com (often without Cyrillic), typewolf.com (which font pairs are in use now) |
 | Client's niche | sites of the client's competitors in their city and worldwide, found by search |
 | Owner's selection | `docs/references.md` (effects, components, fonts) |

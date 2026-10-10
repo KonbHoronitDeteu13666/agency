@@ -9,9 +9,11 @@ Write everything the owner or client may read (documents, file text, page text, 
 
 Read `01-brief.md`. Write `02-tz.md`: goal, composition (pages, functions, integrations), what is NOT included, materials from the client, acceptance criteria as a list (each verifiable), risks.
 
-Add sections: stack with a short justification (if the choice is not obvious and affects price or support, return a question to the owner, do not choose yourself), file structure, data model if there is one.
+Add sections: stack with a short justification (if the choice is not obvious and affects support, return a question to the owner, do not choose yourself), file structure, data model if there is one.
 
 Always include the mandatory baseline of security, by project type: input validation, protection from XSS and injections, passwords only as hashes, HTTPS, access only to one's own data, errors without internal details, payment only through a proven provider, keys in `.env`. Put it in a separate section "Безопасность".
+
+For sites, shops and bots that collect data, also read `02a-seo.md` and `02b-legal.md` if they exist (made by `seo-geo` and `legal-ru`) and put their required elements into the acceptance criteria (sections "SEO и GEO" and "Законодательство РФ"); if they do not exist yet, say in the risks that they must be made first.
 
 Do not add functions beyond the brief. Put improvement ideas in a "Рекомендации" block with the status "ждёт решения владельца".
 
