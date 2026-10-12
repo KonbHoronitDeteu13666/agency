@@ -57,5 +57,14 @@ About 10,000 rub./month for tools and APIs, excluding the Claude subscription. S
 ## Third-party services
 Context7 (library docs MCP) is installed. Only generic library names and generic technical questions may be sent to it; never client data, project content, code, keys or tokens. No API keys are configured and none may be created or entered by agents.
 
+## Order for visual work (set by the owner 12.10.2026)
+Show the owner the NEW design first (the designer's raw result, with a short honest note of known gaps). Only after the owner says the direction is right, run the independent bug hunt (qa-design), the fix rounds and polish. Never spend time polishing a design the owner has not yet seen: he may reject it. The review gate (the main agent looks at screenshots personally, no obvious errors) still applies to the final version shown for acceptance, but not to the first look at a new direction. For every new page ask first what the owner wants to feel, show references, get the direction, then show the first design.
+
+## Site wording and decor bans (set by the owner 12.10.2026)
+- Section names and headings are plain and obvious to a visitor, never "clever": «Услуги и цены», «Порядок работы», «Преимущества», «Отзывы», «Запись», «Контакты». No «Системы», «Как идёт ремонт», «Заказ-наряды», «Журнал работ», «Система 01 / …» and similar inventions.
+- A website of a given business has the standard sections that visitors of that business expect. Do not invent sections (work-order cards, symptom pickers, HUD callouts on photos).
+- Forbidden everywhere: graph-paper / grid / cell background patterns, crosshair callout labels over photos, corner-bracket frames, marquee strips, cursor rings, magnetic buttons, photo swap on hover, arrow sliders with «1 / 3».
+- Photos: show the subject whole, in a sensible crop for the layout; never a random fragment of a car or object.
+
 ## Security review cost control
 Plugin security-guidance is enabled for this project. Cheap regex warnings run on every edit. The per-turn LLM diff review is turned off (`ENABLE_STOP_REVIEW=0` in `.claude/settings.json`). The expensive reviewer runs on `git commit`, so developers commit once per finished block (a full spec stage, or the whole project for size S), never per file or per fix. Hand the reviewer a big block, not a line.
