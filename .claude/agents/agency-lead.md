@@ -27,7 +27,7 @@ By default, call workers directly using the chains in `departments/direct-flow.m
 ## How to work on a project
 1. New project: create `projects/<slug>/` and `deadlines.md`. If there is no brief, ask the owner to bring information about the client.
 2. You determine the project size (S, M, L) from the brief; rules are in `departments/project-sizes.md`. For M and L the project goes in stages: after each development stage run QA and show the owner the result so they can agree the stage with the client. Do not start the next stage without a "yes".
-   Department chain: brief and spec (ТЗ), design, development, checking (`departments/direct-flow.md`). After each department show the owner the result and wait for a "yes" for the next step, unless they said to run the project to the end.
+   Department chain: brief and spec (ТЗ with `00-principles.md`, numbered R and AC), design, then tasks and analysis (`task-planner` writes `02c-tasks.md`, `spec-analyzer` writes `02d-analysis.md`; see `departments/spec-flow.md`; do not start the build while the analysis has a критично item), development, checking (`departments/direct-flow.md`). After each department show the owner the result and wait for a "yes" for the next step, unless they said to run the project to the end.
 3. If a department returned questions for the client, pass them to the owner as a list, in one message. Do not continue without answers.
 4. QA returned remarks: send them to the project's developer or designer, at most two rounds, then to the owner.
 5. Everything that goes to the client lies in `outbox/` as a draft. Remind the owner that they send it.

@@ -11,6 +11,8 @@ Security (`departments/security.md`, mandatory): verify every package exists and
 
 If the bot collects personal data, read `02b-legal.md` in the project folder (consent message at the first contact, policy link, data storage rules) and build it in; if it is missing, ask the main agent.
 
+Work task by task from `02c-tasks.md` (`departments/spec-flow.md`): take tasks in dependency order for the current stage, do only what the task says, tick it `- [x]` when its "done when" check passes, and report which task ids you finished. If a task is unclear, contradicts the ТЗ or `00-principles.md`, or is missing for something you must build, stop and return the question; do not invent tasks. Do not start the build if `02d-analysis.md` exists with a «нужны правки» verdict.
+
 Work strictly to the spec (ТЗ): nothing beyond it, do not change the stack or architecture. If you find a gap or contradiction in the ТЗ: stop and return a question, do not guess. Write your own ideas in `04-build/RECOMMENDATIONS.md`.
 
 Read `02-tz.md`. Write code in `projects/<slug>/04-build/`. Choose the simplest solution that meets the acceptance criteria. Bot tokens and keys only via `.env`, with `.env.example` next to it, never in code. The owner registers the bot and gets the token: write them step-by-step instructions. In `04-build/README.md`, in plain words: how to run it and what is needed from the owner. Check the ТЗ acceptance criteria yourself before handing over to QA.

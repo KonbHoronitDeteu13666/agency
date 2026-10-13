@@ -6,9 +6,10 @@ In the prompt to an executor always specify: project slug, which files to read, 
 
 | Department | Chain for an S project | What the main agent does itself |
 |---|---|---|
-| Brief and ТЗ | `brief-analyst`, then (after the client's answers) `seo-geo` (sites: `02a-seo.md`) and `legal-ru` in requirements mode (sites, shops, bots that collect data: `02b-legal.md`; pass them only the niche, city and project type, no client data), then `tz-writer` | determines size S/M/L per `project-sizes.md`, passes questions to the owner |
+| Brief and ТЗ | `brief-analyst`, then (after the client's answers) `seo-geo` (sites: `02a-seo.md`) and `legal-ru` in requirements mode (sites, shops, bots that collect data: `02b-legal.md`; pass them only the niche, city and project type, no client data), then `tz-writer` (writes `00-principles.md` first, then `02-tz.md` with numbered R and AC; see `departments/spec-flow.md`) | determines size S/M/L per `project-sizes.md`, passes questions to the owner |
 | Design | `reference-scout` (for visual projects), `brand-designer` (light variants, then the brandbook after the choice), `ui-designer` | shows HTML to the owner, runs the choice |
-| Development | one of `web-dev`, `bot-dev`, `automation-dev` by project type | |
+| Tasks and analysis (after the design is approved, before build) | `task-planner` writes `02c-tasks.md`; `spec-analyzer` writes `02d-analysis.md` (always for M and L; for S only if there is a form, bot, database, payment, login or data collection); up to two fix rounds (`tz-writer`, `task-planner`), then the owner decides | does not start the build while `02d-analysis.md` has a критично item; shows the owner the analysis summary |
+| Development | one of `web-dev`, `bot-dev`, `automation-dev` by project type, working task by task from `02c-tasks.md` | |
 | Checking | `qa-spec`, `qa-copy`, `qa-design` (if there are visuals), `qa-code` (if there is logic), `qa-security` (always when there is a form, bot, database, payment, login or data collection; delivery is blocked on its verdict), `qa-seo` (sites), `legal-ru` in audit mode (sites, shops, bots that collect data; delivery is blocked on its verdict) | collects findings into `05-qa.md`, verdict |
 | Planning | without `planner`: the main agent writes `deadlines.md` | |
 | Documents and closing | `doc-drafter` as needed | moves the client to `clients/` |
