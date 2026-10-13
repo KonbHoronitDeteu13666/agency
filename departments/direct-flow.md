@@ -16,6 +16,7 @@ In the prompt to an executor always specify: project slug, which files to read, 
 | Marketing | `content-planner`, `copywriter` | |
 | SMM (analytics, competitors, strategy, plans for VK, Telegram, Instagram) | `smm-analyst` (`departments/smm.md`), texts: `copywriter` | asks the owner for statistics files and competitor links |
 | Sales | `outreach-drafter`, `proposal-drafter` | |
+| GitHub (only on the owner's explicit request) | `git-publisher`: creates a repository (private by default), commits and pushes a client project (`04-build/` only) or the agency repo itself; checks for leaks before every push | passes the owner's request, slug, repo name and visibility; shows the owner the repo URL and what was left out |
 | Support | `support-drafter`, `guide-writer`; a code fix is done by the project's developer | assesses whether the fix falls within the original ТЗ, the owner decides |
 
 For M and L you can call a lead (`tz-lead`, `design-lead`, `dev-lead`, `qa-lead`) if the stage is large; then its instructions apply.

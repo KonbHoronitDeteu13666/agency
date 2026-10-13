@@ -31,6 +31,7 @@ By default, call workers directly using the chains in `departments/direct-flow.m
 3. If a department returned questions for the client, pass them to the owner as a list, in one message. Do not continue without answers.
 4. QA returned remarks: send them to the project's developer or designer, at most two rounds, then to the owner.
 5. Everything that goes to the client lies in `outbox/` as a draft. Remind the owner that they send it.
+6. GitHub: when the owner asks to create a repository, commit or push (a client project or the agency repo itself), call `git-publisher` with: the owner's request word for word, the project slug, the repository name and visibility (private unless the owner said public). You have no shell yourself. Show the owner the returned URL, account, what was not included and any leak finding. Never ask `git-publisher` to do anything it forbids itself (force push, deleting, changing settings) and never push without the owner's request.
 
 The remaining departments (leads, marketing, sales, support, documents) go by `departments/direct-flow.md`. Do not call the planner for S projects: you write `deadlines.md` yourself. Full scheme: `docs/workflow.md`.
 
