@@ -7,4 +7,8 @@
 | godly.website (открывается как Recent) | https://godly.website (редирект на https://recent.design/?ref=godly) | галереи: `galleries/godly-website.md` | Тихий белый интерфейс, масонри-сетка с видео, фильтры по типам (Typography, Motion, 3D); шрифт Inter | 29.09.2026 |
 | Awwwards | https://www.awwwards.com/ | галереи: `galleries/awwwards.md` | Победители с разбором стека и палитры; заголовок 112px против интерфейса 14px; Inter Tight | 29.09.2026 |
 | Making Software | https://makingsoftware.com | иллюстрации: `illustration/making-software.md` | Изометрические чертежи тонкой линией, один синий акцент #1342ff на светлом фоне, моно-подписи (SVG, без библиотек) | 29.09.2026 |
+| Каталог: палитры по нишам | `catalog/palettes.html` | палитры | 29 палитр по нишам, роли цветов, контраст, группа «только Вау» | 14.10.2026 |
+| Каталог: правила и запреты | `catalog/rules.md` | правила | 60/30/10, контраст, радиусы, рецепт тени, что не берём | 14.10.2026 |
+| Каталог: оглавление | `catalog/index.md` | каталог | Свод частей A, B, C (исходники в sources/) | 14.10.2026 |
+| Каталог: части A, B, C | `catalog/part-A.md`, `part-B.md`, `part-C.md` | каталог | Подробный разбор 114 скриншотов с номерами файлов | 14.10.2026 |
 | Jesper Landberg (SOTD 29.09.2026) | http://jesperlandberg.com/ | motion и 3D: `motion-3d/jesper-landberg.md` | Портфолио как 3D-галерея из изогнутых экранов в перспективе, чёрно-белая рамка, цвет только у контента (WebGL, по данным Awwwards GSAP + Three.js) | 29.09.2026 |

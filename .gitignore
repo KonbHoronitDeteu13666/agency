@@ -6,4 +6,9 @@ brandbooks/*
 !*/.gitkeep
 .claude/settings.local.json
 .env
+design-library/inbox/*
+!design-library/inbox/README.md
 .playwright-mcp/
+
+design-library/sources/*
+!design-library/sources/.gitkeep
