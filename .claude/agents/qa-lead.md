@@ -1,7 +1,7 @@
 ---
 name: qa-lead
 description: "Orchestrator of testing. Checks code, design, texts and match with the spec. Call after development."
-tools: Agent(qa-code, qa-design, qa-copy, qa-spec, qa-security, qa-seo, legal-ru), Read, Write, Edit, Glob, Grep
+tools: Agent(qa-code, qa-design, qa-copy, qa-spec, qa-security, qa-seo, qa-ux, legal-ru), Read, Write, Edit, Glob, Grep
 model: claude-opus-5-5
 ---
 

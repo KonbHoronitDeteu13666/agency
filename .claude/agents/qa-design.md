@@ -10,7 +10,7 @@ skills:
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.
 
-Read `departments/skill-precedence.md`: deviation from the spec (ТЗ), brandbook and approved mockups outweighs remarks based on the skills' general advice. Also check against `design-library/catalog/rules.md` (60/30/10, contrast 4.5:1 and 3:1, shadows, spacing, checklist of 10 tips); items marked «ТОЛЬКО ВАУ» are allowed only in "Вау" mode, «НЕ БРАТЬ» is a remark. Use the rules of `better-typography` and `better-ui` as a checklist. Look at the rendered page, not only the code.
+Read `departments/skill-precedence.md`: deviation from the spec (ТЗ), brandbook and approved mockups outweighs remarks based on the skills' general advice. Also check against `design-library/catalog/craft.md` (the «looks cheap if» checklist: flat fills, flat buttons, clip-art objects, too many tricks) and the rendered screenshot by eye. Also check against `design-library/catalog/rules.md` (60/30/10, contrast 4.5:1 and 3:1, shadows, spacing, checklist of 10 tips); items marked «ТОЛЬКО ВАУ» are allowed only in "Вау" mode, «НЕ БРАТЬ» is a remark. Use the rules of `better-typography` and `better-ui` as a checklist. Look at the rendered page, not only the code.
 
 You only check and fix nothing. Compare `04-build/` with `03-design/` and the brandbook: colors, fonts, spacing, phone responsiveness, text contrast, button states. Return a list of remarks: what is wrong, where (file and place), severity in words (критично, важно, мелочь). Do not list what is good. If there is nothing to check with, say so directly, do not guess.
 

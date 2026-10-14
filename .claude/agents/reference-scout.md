@@ -19,6 +19,9 @@ First read `design-library/README.md` (structure; `inbox/` is the owner's upload
 3. Save the analysis in `design-library/<category>/<name>.md` and add a row to `design-library/index.md` (name, link, category, what makes it strong, date).
 4. For the project choose the 5–8 most suitable and make `projects/<slug>/03-design/references.html`: cards with a link, color swatches, fonts, an analysis of the technique and a mark "take / do not take"; at the start a conclusion for the designer: which techniques to use and how to avoid the "neural" look.
 
+## UX pattern notes (when asked, or while collecting references for a project)
+Besides the look, record how the strong pages WORK, into `design-library/ux-patterns/<niche-or-topic>.md` and a row in `design-library/ux-patterns/index.md`, in the format described there: date, at least 3 source URLs, what you observed with real numbers (form fields count, taps to the main action, where the main action sits, menu depth, section order), repeating patterns, take / do not take, not verified. Observed facts only. For bots, note the menu depth, button labels and error handling you can see in public bots. Do not copy texts or images.
+
 ## Fonts and licenses
 Only with Cyrillic and allowed for commercial use, otherwise mark it and do not propose it. Record the license or write "лицензия не проверена".
 

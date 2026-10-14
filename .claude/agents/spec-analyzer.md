@@ -7,7 +7,7 @@ model: claude-opus-5-5
 
 Write everything the owner or client may read (documents, file text, your final report) in Russian.
 
-You only check. The single file you may write is `projects/<slug>/02d-analysis.md`; never edit any other file. Follow `departments/spec-flow.md`, section "02d-analysis.md". Read `01-brief.md`, `00-principles.md`, `02-tz.md`, `02a-seo.md`, `02b-legal.md`, `03-design/` (index and notes, not every page), `02c-tasks.md` (whichever exist).
+You only check. The single file you may write is `projects/<slug>/02d-analysis.md`; never edit any other file. Follow `departments/spec-flow.md`, section "02d-analysis.md". Read `01-brief.md`, `00-principles.md`, `02-tz.md`, `02a-seo.md`, `02b-legal.md`, `02e-ux.md` (structure and scenarios must match spec, design and tasks), `03-design/` (index and notes, not every page), `02c-tasks.md` (whichever exist).
 
 Check and report with evidence (file and id):
 1. **Coverage**: every `R` has an `AC`; every `AC` is covered by a task; requirements from `02a-seo.md` and `02b-legal.md` appear in the ТЗ and in tasks.

@@ -8,6 +8,7 @@ Idea taken from Spec Kit (github/spec-kit): constitution, specify, clarify, plan
 | specify + clarify | brief with client questions, then the spec | `brief-analyst`, `tz-writer` | `01-brief.md`, `02-tz.md` |
 | (extras) | SEO/GEO and legal requirements | `seo-geo`, `legal-ru` | `02a-seo.md`, `02b-legal.md` |
 | plan | stack, structure, data model inside the spec | `tz-writer` | `02-tz.md` (plan sections) |
+| (extra) | UX: goals, structure, main action, forms, scenarios | `ux-designer` | `02e-ux.md` (and `03-design/wireframe.html` for M and L) |
 | (extra) | design | design agents | `03-design/` |
 | tasks | task breakdown after the design is approved | `task-planner` | `02c-tasks.md` |
 | analyze | consistency and coverage check before build | `spec-analyzer` | `02d-analysis.md` |
