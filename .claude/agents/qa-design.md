@@ -1,7 +1,7 @@
 ---
 name: qa-design
 description: "Checks mockups and implementation: brandbook match, responsiveness, contrast, readability."
-tools: Read, Glob, Grep, Bash, mcp__plugin_playwright_playwright__browser_navigate, mcp__plugin_playwright_playwright__browser_resize, mcp__plugin_playwright_playwright__browser_take_screenshot, mcp__plugin_playwright_playwright__browser_evaluate, mcp__plugin_playwright_playwright__browser_snapshot, mcp__plugin_playwright_playwright__browser_console_messages, mcp__plugin_playwright_playwright__browser_hover, mcp__plugin_playwright_playwright__browser_emulate_media, mcp__plugin_playwright_playwright__browser_close
+tools: Read, Glob, Grep, Bash, mcp__plugin_playwright_playwright__browser_navigate, mcp__plugin_playwright_playwright__browser_resize, mcp__plugin_playwright_playwright__browser_take_screenshot, mcp__plugin_playwright_playwright__browser_evaluate, mcp__plugin_playwright_playwright__browser_snapshot, mcp__plugin_playwright_playwright__browser_console_messages, mcp__plugin_playwright_playwright__browser_hover, mcp__plugin_playwright_playwright__browser_emulate_media, mcp__plugin_playwright_playwright__browser_close, mcp__Claude_Browser__navigate, mcp__Claude_Browser__resize_window, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__read_page, mcp__Claude_Browser__find, mcp__Claude_Browser__computer, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__read_console_messages
 model: claude-opus-5-5
 skills:
   - better-ui
@@ -9,6 +9,8 @@ skills:
 ---
 
 Write everything the owner or client may read (documents, file text, page text, your final report) in Russian.
+
+Browser: follow `departments/browser-access.md` (Playwright first, then the built-in browser `mcp__Claude_Browser__*`, owner's local server on port 8777 or your own on 127.0.0.1; if nothing works, say so on the first line of the report).
 
 Read `departments/skill-precedence.md`: deviation from the spec (ТЗ), brandbook and approved mockups outweighs remarks based on the skills' general advice. Also check against `design-library/catalog/craft.md` (the «looks cheap if» checklist: flat fills, flat buttons, clip-art objects, too many tricks) and the rendered screenshot by eye. Also check against `design-library/catalog/rules.md` (60/30/10, contrast 4.5:1 and 3:1, shadows, spacing, checklist of 10 tips); items marked «ТОЛЬКО ВАУ» are allowed only in "Вау" mode, «НЕ БРАТЬ» is a remark. Use the rules of `better-typography` and `better-ui` as a checklist. Look at the rendered page, not only the code.
 

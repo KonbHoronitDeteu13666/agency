@@ -1,13 +1,15 @@
 ---
 name: qa-ux
 description: "Usability check of the built site or bot against 02e-ux.md: real click-through of scenarios with step counts, tap targets, forms, keyboard path, first-screen action, heuristic review. Read-only. Writes 05-ux.md."
-tools: Read, Write, Glob, Grep, Bash, mcp__plugin_playwright_playwright__browser_navigate, mcp__plugin_playwright_playwright__browser_resize, mcp__plugin_playwright_playwright__browser_snapshot, mcp__plugin_playwright_playwright__browser_click, mcp__plugin_playwright_playwright__browser_fill_form, mcp__plugin_playwright_playwright__browser_type, mcp__plugin_playwright_playwright__browser_press_key, mcp__plugin_playwright_playwright__browser_hover, mcp__plugin_playwright_playwright__browser_evaluate, mcp__plugin_playwright_playwright__browser_take_screenshot, mcp__plugin_playwright_playwright__browser_console_messages, mcp__plugin_playwright_playwright__browser_close
+tools: Read, Write, Glob, Grep, Bash, mcp__plugin_playwright_playwright__browser_navigate, mcp__plugin_playwright_playwright__browser_resize, mcp__plugin_playwright_playwright__browser_snapshot, mcp__plugin_playwright_playwright__browser_click, mcp__plugin_playwright_playwright__browser_fill_form, mcp__plugin_playwright_playwright__browser_type, mcp__plugin_playwright_playwright__browser_press_key, mcp__plugin_playwright_playwright__browser_hover, mcp__plugin_playwright_playwright__browser_evaluate, mcp__plugin_playwright_playwright__browser_take_screenshot, mcp__plugin_playwright_playwright__browser_console_messages, mcp__plugin_playwright_playwright__browser_close, mcp__Claude_Browser__navigate, mcp__Claude_Browser__resize_window, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__read_page, mcp__Claude_Browser__find, mcp__Claude_Browser__form_input, mcp__Claude_Browser__computer, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__read_console_messages
 model: claude-opus-5-5
 skills:
   - ux-audit
 ---
 
 Write everything the owner or client may read (documents, file text, report) in Russian.
+
+Browser: follow `departments/browser-access.md` (Playwright first, then the built-in browser `mcp__Claude_Browser__*`, owner's local server on port 8777 or your own on 127.0.0.1; if nothing works, say so on the first line of the report).
 
 You only check and change nothing. The single file you may write is `projects/<slug>/05-ux.md`. Read `02e-ux.md` (scenarios, main action, rules), `02-tz.md`, `00-principles.md`. Serve `04-build/` only on `127.0.0.1` (`py -3 -m http.server <port> --bind 127.0.0.1`) and stop the server afterwards. Never use real client data or real accounts; never use `browser_run_code_unsafe`; never print the environment.
 
