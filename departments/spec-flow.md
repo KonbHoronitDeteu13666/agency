@@ -1,6 +1,6 @@
 # Spec flow: principles, spec, tasks, analysis (Spec Kit style)
 
-Idea taken from Spec Kit (github/spec-kit): constitution, specify, clarify, plan, tasks, analyze, implement. Our mapping, with files in `projects/<slug>/`:
+Idea taken from Spec Kit (github/spec-kit): constitution, specify, clarify, plan, tasks, analyze, implement. Our mapping, with files in the project folder (`projects/<slug>/` in the agency files means PROJECT_DIR, the folder the owner chose for this project):
 
 | Spec Kit step | Ours | Who | File |
 |---|---|---|---|

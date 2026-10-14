@@ -2,7 +2,7 @@
 
 Each agent call costs about 7 thousand tokens of baseline (measured 29.09.2026: an empty `qa-spec` = 6.9k, an empty `design-lead` = 12.3k, `ui-designer` with connected skills = 23k), before any work. The layer of leads adds its own baseline at each stage and mostly passes tasks along. So the main agent calls executors directly along these chains. Leads (`*-lead`) are called only for M and L stages where several executors work in sequence and a coordinator is needed, and even then at the main agent's decision.
 
-In the prompt to an executor always specify: project slug, which files to read, which file to write, what to return (up to 15 lines).
+In the prompt to an executor always specify: the absolute PROJECT_DIR (the project folder, chosen by the owner) and AGENCY_HOME (`C:\Users\HP\Desktop\agency`, shared rules, library, CRM), which files to read, which file to write, what to return (up to 15 lines). In all agency files `projects/<slug>/` means PROJECT_DIR and `brandbooks/<client>/` means `PROJECT_DIR\brandbook\`; departments, docs, design-library, leads, clients, marketing and templates stay in AGENCY_HOME.
 
 | Department | Chain for an S project | What the main agent does itself |
 |---|---|---|

@@ -10,7 +10,7 @@ $agentsDst  = Join-Path $userClaude 'agents'
 $skillsSrc  = Join-Path $agencyHome '.claude\skills'
 $skillsDst  = Join-Path $userClaude 'skills'
 
-$anchor = 'AGENCY_HOME = ' + $agencyHome + '. All relative paths in these instructions (departments/, docs/, projects/, design-library/, leads/, clients/, brandbooks/, templates/, .claude/skills/) are relative to AGENCY_HOME, NOT to the current working folder. Always use absolute paths starting with AGENCY_HOME. Project files live in AGENCY_HOME\projects\<slug>\.'
+$anchor = 'AGENCY_HOME = ' + $agencyHome + '. Shared things live in AGENCY_HOME and are always read there by absolute path: departments/, docs/, design-library/, leads/, clients/, marketing/, templates/, .claude/skills/. The project itself lives in PROJECT_DIR, which the main agent gives you in your prompt: wherever these instructions say projects/<slug>/ they mean PROJECT_DIR (the files 01-brief.md, 02-tz.md, 03-design/, 04-build/ and so on sit directly in PROJECT_DIR), and brandbooks/<client>/ means PROJECT_DIR\brandbook\. If your prompt gives no PROJECT_DIR, stop and ask the main agent; never guess, and never write project files in the current folder or in AGENCY_HOME unless told to. Always use absolute paths.'
 $enc = New-Object System.Text.UTF8Encoding($false)
 
 New-Item -ItemType Directory -Force -Path $agentsDst | Out-Null

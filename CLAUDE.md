@@ -26,7 +26,7 @@ The owner is the go-between for agents and the client: the agent formulates ques
 - `.claude/agents/` — agents. `agency-lead` is the main one, the only entry point. Department orchestrators are named `*-lead`, each has its own subagents.
 - `departments/` — department regulations: order of work, inputs and outputs, readiness criteria.
 - Shared memory (CRM without services): `leads/`, `clients/`, `projects/`, `templates/`, `brandbooks/`. The contents of `leads/ clients/ projects/ brandbooks/` are not committed (personal data).
-- Client project: `projects/<slug>/` with files `01-brief.md`, `02-tz.md`, `03-design/`, `04-build/`, `05-qa.md`, `deadlines.md`, `outbox/`.
+- Client project: a project folder (PROJECT_DIR) with files `01-brief.md`, `02-tz.md`, `03-design/`, `04-build/`, `05-qa.md`, `deadlines.md`, `outbox/`. PROJECT_DIR is the folder the owner started the session in or named; only when the session is in the agency folder itself it is `projects/<slug>/` here. Everywhere in the agency files `projects/<slug>/` means PROJECT_DIR and `brandbooks/<client>/` means `PROJECT_DIR\brandbook\`. Shared things (departments, docs, design-library, leads, clients, marketing, templates) always stay in the agency folder (AGENCY_HOME = `C:\Users\HP\Desktop\agency`). Every prompt to a worker gives the absolute PROJECT_DIR and AGENCY_HOME.
 
 ## Show visual things visually
 Design taste and the «Вау» and «Стандарт» modes: `departments/design-taste.md`, `departments/wow-effects.md`, library `design-library/`.
