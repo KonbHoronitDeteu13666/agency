@@ -11,4 +11,5 @@
 | Каталог: правила и запреты | `catalog/rules.md` | правила | 60/30/10, контраст, радиусы, рецепт тени, что не берём | 14.10.2026 |
 | Каталог: оглавление | `catalog/index.md` | каталог | Свод частей A, B, C (исходники в sources/) | 14.10.2026 |
 | Каталог: части A, B, C | `catalog/part-A.md`, `part-B.md`, `part-C.md` | каталог | Подробный разбор 114 скриншотов с номерами файлов | 14.10.2026 |
+| Умный дом: Loxone, Bang & Olufsen, Savant, Control4 | https://www.loxone.com/enen/ и др. | ниша: `galleries/smart-home-brands.md` | Тёмное видео-ядро + тёплый серый фон, кремовый текст, лёгкий вес крупных заголовков; Savant и Control4 как пример «как не надо» | 15.10.2026 |
 | Jesper Landberg (SOTD 29.09.2026) | http://jesperlandberg.com/ | motion и 3D: `motion-3d/jesper-landberg.md` | Портфолио как 3D-галерея из изогнутых экранов в перспективе, чёрно-белая рамка, цвет только у контента (WebGL, по данным Awwwards GSAP + Three.js) | 29.09.2026 |

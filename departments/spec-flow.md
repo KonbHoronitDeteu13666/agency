@@ -6,6 +6,7 @@ Idea taken from Spec Kit (github/spec-kit): constitution, specify, clarify, plan
 |---|---|---|---|
 | constitution | project principles | `tz-writer` | `00-principles.md` |
 | specify + clarify | brief with client questions, then the spec | `brief-analyst`, `tz-writer` | `01-brief.md`, `02-tz.md` |
+| (extra) | competitor analysis: who they are, strengths and weaknesses, gaps | `competitor-analyst` | `01b-competitors.md`, `competitors.html` |
 | (extras) | SEO/GEO and legal requirements | `seo-geo`, `legal-ru` | `02a-seo.md`, `02b-legal.md` |
 | plan | stack, structure, data model inside the spec | `tz-writer` | `02-tz.md` (plan sections) |
 | (extra) | UX: goals, structure, main action, forms, scenarios | `ux-designer` | `02e-ux.md` (and `03-design/wireframe.html` for M and L) |
