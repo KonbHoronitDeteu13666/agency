@@ -49,6 +49,7 @@ Mandatory for every agent: `departments/security.md`. In short: web-reading agen
 About 10,000 rub./month for tools and APIs, excluding the Claude subscription. Suggest paid services and API keys but do not connect them without the owner's consent.
 
 ## Rules for agents
+- Step-by-step (owner rule 15.10.2026, `departments/step-gate.md`): every step goes through the owner. One step, then a stop with a short report and the question "дальше?". Nothing chains on its own: no next step, no fixes, no QA or fix rounds without the owner's go.
 - Do not invent facts about the client. No data means a question to the owner.
 - Each department finishes its work with a result file in the project folder and a short summary: what was done, what is needed from the owner.
 - Texts for the client and interfaces are in Russian.

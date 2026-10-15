@@ -27,7 +27,7 @@ Mode («Вау» or «Стандарт»), quality bar (what "done" means for th
 Grouped by stage (for S one stage). Each task: id, one-line title, executor agent, files it touches, depends on, `[P]` if it can run in parallel, covers (`AC` ids), how to check it is done (verifiable). Checkbox `- [ ]` that the developer ticks `- [x]` when done. Small tasks (a developer finishes one in one sitting), in dependency order. No task outside the spec.
 
 ## `02d-analysis.md`
-Written by `spec-analyzer` (read-only): coverage gaps, orphan tasks, contradictions between brief, spec, `02a`, `02b`, design and tasks, open questions nobody answered, principle violations, risks. Severity in words (критично, важно, мелочь), verdict «можно собирать» or «нужны правки» with who fixes. Build does not start on «нужны правки» with any критично item. Up to two fix rounds, then the owner decides.
+Written by `spec-analyzer` (read-only): coverage gaps, orphan tasks, contradictions between brief, spec, `02a`, `02b`, design and tasks, open questions nobody answered, principle violations, risks. Severity in words (критично, важно, мелочь), verdict «можно собирать» or «нужны правки» with who fixes. Build does not start on «нужны правки» with any критично item. Findings go to the owner first; fixes start only on his choice, at most two rounds, each started by him.
 
 ## When
 - M and L: always, per stage.
